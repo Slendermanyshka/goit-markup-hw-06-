@@ -42,6 +42,7 @@
 
     }
   }
+ 
 }
 
 .team__box {
@@ -106,7 +107,7 @@ align-content: center;
   background-color: $background-color;
 
   & svg {
-    fill: $svg-fill;
+    fill: #606165;
   }
 
   &:hover,
