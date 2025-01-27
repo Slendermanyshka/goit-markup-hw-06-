@@ -240,7 +240,23 @@
   letter-spacing: 0.02em;
 }
 
+.contacts__icon button {
+  @extend .media-icon;
+  background-color: $background-color;
 
+  & svg {
+    fill: #606165;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $hover-color;
+  }
+
+  &:hover svg, &:focus svg {
+    fill: $background-color;
+  }
+}
 .container__for__bottom__part{
   align-self: flex-end;
 }
@@ -254,19 +270,20 @@
   @extend .list; 
   & a{
       text-decoration: none;
-      color: #757575;
+      color: #434455;
       font-weight: 500;
       font-size: 34px;
       line-height: 40px;
 
       letter-spacing: 0.02em;
-     &:hover{
-      color: #2196F3;
+     &:hover, &:focus{
+      color: #4D5AE5;
      }
   }
 }
 .navigation_item{
   margin-bottom: 32px;
+  color: #434455;
 }
 
 .menu-container__social{
@@ -278,10 +295,11 @@
   @extend .list; 
   display: inline-flex;
   flex-direction: row;
+  gap: 40px;
   margin: 0;
   & a{
       text-decoration: none;
-      color: #2196F3;
+      color: #434455;
       font-weight: 500;
       font-size: 18px;
       line-height: 122%;
