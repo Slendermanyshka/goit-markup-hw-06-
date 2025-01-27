@@ -26,10 +26,12 @@
 }
 .footer address{
     @extend .normal-text;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 171%;
-    color: $background-color;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F4F4FD;
+    width: 288px;
 
    
 }
@@ -52,6 +54,7 @@
     }
 }
 .footer__address{
+
     @media screen and (min-width:320px) and (max-width:768px){
         text-align: center;
     }
@@ -100,7 +103,7 @@
 }
 
 .footer__social{
-    
+    margin-top: 72px;
     align-self: center;
 
     & h3{
@@ -160,6 +163,8 @@
 
     @media screen and (min-width:320px) and (max-width:768px){
         text-align: center;
+        margin-top: 72px;
+
     }
     @media screen and (min-width:1200px){
         margin-left: 93px;
@@ -176,6 +181,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+
     }
     @media screen and (min-width:768px) and (max-width:1200px){
         flex-direction: column;
