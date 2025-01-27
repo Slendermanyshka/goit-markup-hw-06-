@@ -58,5 +58,8 @@
     <symbol id="icon-mobile-menu" viewBox="0 0 48 32">
 <path d="M0 5.334v-5.334h48v5.334h-48zM0 18.666h48v-5.332h-48v5.332zM0 32h48v-5.334h-48v5.334z"></path>
 </symbol>
+<symbol id="icon-send" viewBox="0 0 24 20">
+<path d="M24 0L0 11.25L7.66994 13.6172L19.5 4.375L10.5017 14.4913L10.509 14.4936L10.5 14.4913V20L14.8013 15.8183L20.2501 17.5L24 0Z" fill="white"/>
+</symbol>
 </defs>
 </svg>
